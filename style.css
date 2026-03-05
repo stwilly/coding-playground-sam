@@ -13,6 +13,15 @@ body {
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
+h1 {
+  font-family: "Xanh Mono", monospace;
+  text-shadow: 1px 1px rgb(73, 219, 255);
+  font-size: 60px;
+  font-style: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
 
 /* font used for dropdown menu - edit this*/
 h2 {

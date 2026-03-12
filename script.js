@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "And queer!",
+  "And ready to partayyyyyy!",
+  "And you're never leaving!",
+  "I'm not going anywhere!",
+  "It's been too long!",
+  "What a day!",
+  "For fuck's sake!",
+  "And so am I!",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -50,7 +50,7 @@ function dropdownFun() {
   } else if (x === "stressed") {
     addText("do nothing");
   } else if (x === "starving") {
-    addText("uh... eat? maybe?");
+    addText("uh... eat? duh?");
   }
 }
 //end of dropdown function
@@ -105,26 +105,79 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "attack on masculinity",
+  "attack on masculinity arguments against",
+  "attack on a woman in Fitzroy at night",
+  "actually good jokes",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "becasue you HAVE to",
+  "be a bit less of such an absoute dickwit",
+  "ballistic missile bad?",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "haha oh my god",
+  "colliding star name",
+  "collision on the M1",
+  "car crash liveleak",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "delete me",
+  "delicatessen near me",
+  "dumb too dumb",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "Ella Enchanted",
+  "elite taskforce for finding my keys hire now",
 
-  "fridge magnets",
+  "fruit veg how many",
+  "fruit veg how many really",
+  "funny jokes",
+
+  "gored mat a door",
+  "gored matt adore",
+  "gored guy with bull and red flag",
+  "good jokes",
+
+  "hallucinations and twitching",
+  "hallucinations tell me future?",
+  "how to be a bit less of an absolute dickwit",
+  "how to make igloo",
+
+  "inuit correct term",
+  "igloo real?",
+  "igloo near me",
+
+  "jokes",
+  "jester costume for lease",
+  "jester costume buy",
+  "jester costume to sew INTO my skin",
+
+  "kallidoscope",
+  "kolidascope",
+  "kaleidoscope",
+  "kalaidascope",
+  "kollide o'scope",
+  "kaleidoSCAPE?",
+
+  "love",
+  "lust",
+  "love lust difference",
+
+  "matador gored",
+  "matador gored by bull",
+  "matador gored but NOT by a bull?",
+  "memories forgotten name",
+
+  "nasty little sucker",
+
+  "obvious things",
+  "obvious things forgotten",
+  "obvious things buy now",
+
+  "parentheses",
+  "()",
+  "parental shrapnel",
+
+  "quotient",
+
+  "who plays ella enchanted",
+  "who is anne hathaway",
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -156,15 +209,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "oceans, lesser men, balloons, carbon atoms, illusions, truths, decisions, static charges".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "find, imply, shatter, please, offend, read, try, deliberate, mangle".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "old magicks, the lesser dead, truths, lies, honesties, absurdities, wars, sweeping seas, different leathers, hallucinations, implications, final decisions".split(
       ","
     );
 // set up the counter
@@ -219,7 +272,7 @@ function processPoem() {
   if (counter > 15) {
     removeFirstLine();
   }
-  setTimeout(processPoem, 1000);
+  setTimeout(processPoem, 900);
 }
 // Start the process
 processPoem();

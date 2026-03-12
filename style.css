@@ -8,7 +8,7 @@ body {
   background: #cbf1e4;
   background-image: linear-gradient(
     rgb(160, 52, 255),
-    rgb(5, 5, 5),
+    rgb(255, 228, 53),
     #ff2525
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
@@ -16,7 +16,7 @@ body {
 
 h1 {
   font-family: "Xanh Mono", monospace;
-  text-shadow: 1px 1px rgb(255, 73, 170);
+  text-shadow: 1px 2px rgb(255, 166, 0);
   font-size: 60px;
   font-style: bold;
   margin-top: 0;
@@ -52,6 +52,7 @@ h4 {
 
 /* font used for byline in header - edit this */
 h5 {
+  color: rgb(255, 204, 85);
   font-size: 15px;
   text-align: 20px right;
 }
@@ -168,8 +169,8 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("./img/catBG.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-image: url("./img/oceangif.gif"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: #8ef9ff;
   font-family: "Source Code Pro", monospace;
   font-size: 14px; 
 }

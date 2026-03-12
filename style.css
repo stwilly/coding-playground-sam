@@ -13,9 +13,10 @@ body {
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
+
 h1 {
   font-family: "Xanh Mono", monospace;
-  text-shadow: 1px 1px rgb(73, 219, 255);
+  text-shadow: 1px 1px rgb(255, 73, 170);
   font-size: 60px;
   font-style: bold;
   margin-top: 0;
@@ -36,14 +37,14 @@ h2 {
 
 /* header for error code Retry */
 h3 {
-  font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: "Xanh Mono", monospace;
   color: black;
   text-align: center;
 }
 
 /* font used for title of haiku - edit this */
 h4 {
-  font-family: "Zen Dots", cursive;
+  font-family: "Xanh Mono", monospace;
   font-size: 22px;
   font-style: bold;
   text-align: center;
@@ -62,10 +63,11 @@ h5 {
 
 /* Style the card for the header/title card */
 .cardTitle {
+  color: white
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("./img/clouds.jpg");
+  background-image: url("./img/rainbow-clouds.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
